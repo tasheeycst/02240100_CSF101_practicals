@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="psuedo code"/>
+        <attribute name="authors" value="Dell"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-26 01:58:58 PM"/>
+        <attribute name="created" value="RGVsbDtUQVNIRVk7MjAyNS0wMy0yNjswMTo0NDowNCBQTTsyMTI0"/>
+        <attribute name="edited" value="RGVsbDtUQVNIRVk7MjAyNS0wMy0yNjswMTo1ODo1OCBQTTsxOzIyNDY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <output expression="&quot;enter any number&quot;" newline="True"/>
+            <input variable="n"/>
+            <if expression="n%2==0">
+                <then>
+                    <output expression="&quot;number is even &quot;&amp;n" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;number is odd &quot;&amp;n" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

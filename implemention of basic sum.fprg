@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="implemention of basic sum"/>
+        <attribute name="authors" value="Dell"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-26 02:12:59 PM"/>
+        <attribute name="created" value="RGVsbDtUQVNIRVk7MjAyNS0wMy0yNjswMTo1OTowMyBQTTsyMTI5"/>
+        <attribute name="edited" value="RGVsbDtUQVNIRVk7MjAyNS0wMy0yNjswMjoxMjo1OSBQTTsxOzIyMzg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1, n2, sum" type="Integer" array="False" size=""/>
+            <output expression="&quot;enter any first number &quot;" newline="True"/>
+            <input variable="n1"/>
+            <output expression="&quot;enter any second number &quot;" newline="True"/>
+            <input variable="n2"/>
+            <assign variable="sum" expression="n1 + n2"/>
+            <output expression="&quot;the sum of two numbers are : &quot;&amp;sum" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

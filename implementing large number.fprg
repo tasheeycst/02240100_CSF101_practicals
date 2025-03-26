@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="implementing large number"/>
+        <attribute name="authors" value="Dell"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-26 02:21:38 PM"/>
+        <attribute name="created" value="RGVsbDtUQVNIRVk7MjAyNS0wMy0yNjswMjoxMzo0OCBQTTsyMTI5"/>
+        <attribute name="edited" value="RGVsbDtUQVNIRVk7MjAyNS0wMy0yNjswMjoyMTozOCBQTTsxOzIyMzU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <comment text="input total of 3 numbers"/>
+            <output expression="&quot;enter any first number &quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;enter second number &quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;enter any third number &quot;" newline="True"/>
+            <input variable="c"/>
+            <if expression="a&gt;b">
+                <then>
+                    <if expression="a&gt;c">
+                        <then>
+                            <output expression="&quot;first num is greater : &quot;&amp;a" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;third num is greater : &quot;&amp;c" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="b&gt;c">
+                        <then>
+                            <output expression="&quot;second number is the greatest : &quot;&amp;b" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;third num is the greatest : &quot;&amp;c" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
